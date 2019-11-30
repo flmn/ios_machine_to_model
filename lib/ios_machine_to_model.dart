@@ -116,6 +116,6 @@ String iosMachineToModel(String machine) {
     case 'iPad8,8':
       return 'iPad Pro 12.9-inch';
     default:
-      return 'unknown';
+      return machine;
   }
 }
