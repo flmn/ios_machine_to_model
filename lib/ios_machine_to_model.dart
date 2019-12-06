@@ -5,6 +5,12 @@ library ios_machine_to_model;
 /// return model name
 String iosMachineToModel(String machine) {
   switch (machine) {
+    case 'iPhone1,1':
+      return 'iPhone';
+    case 'iPhone1,2':
+      return 'iPhone 3G';
+    case 'iPhone2,1':
+      return 'iPhone 3G';
     case 'iPhone3,1':
     case 'iPhone3,2':
     case 'iPhone3,3':
@@ -52,6 +58,12 @@ String iosMachineToModel(String machine) {
       return 'iPhone XS Max';
     case 'iPhone11,8':
       return 'iPhone XR';
+    case 'iPhone12,1':
+      return 'iPhone 11';
+    case 'iPhone12,3':
+      return 'iPhone 11 Pro';
+    case 'iPhone12,5':
+      return 'iPhone 11 Pro Max';
     case 'iPad1,1':
       return 'iPad';
     case 'iPad1,2':
@@ -64,7 +76,7 @@ String iosMachineToModel(String machine) {
     case 'iPad2,5':
     case 'iPad2,6':
     case 'iPad2,7':
-      return 'iPad Mini';
+      return 'iPad mini';
     case 'iPad3,1':
     case 'iPad3,2':
     case 'iPad3,3':
@@ -75,18 +87,19 @@ String iosMachineToModel(String machine) {
       return 'iPad 4';
     case 'iPad4,1':
     case 'iPad4,2':
+    case 'iPad4,3':
       return 'iPad Air';
     case 'iPad4,4':
     case 'iPad4,5':
     case 'iPad4,6':
-      return 'iPad Mini 2';
+      return 'iPad mini 2';
     case 'iPad4,7':
     case 'iPad4,8':
     case 'iPad4,9':
-      return 'iPad Mini 3';
+      return 'iPad mini 3';
     case 'iPad5,1':
     case 'iPad5,2':
-      return 'iPad Mini 4';
+      return 'iPad mini 4';
     case 'iPad5,3':
     case 'iPad5,4':
       return 'iPad Air 2';
@@ -101,20 +114,46 @@ String iosMachineToModel(String machine) {
       return 'iPad 5';
     case 'iPad7,1':
     case 'iPad7,2':
-      return 'iPad Pro 12.9 inch 2nd gen';
+      return 'iPad Pro 12.9 2';
     case 'iPad7,3':
     case 'iPad7,4':
-      return 'iPad Pro 10.5 inch';
+      return 'iPad Pro 10.5';
+    case 'iPad7,5':
+    case 'iPad7,6':
+      return 'iPad 6';
+    case 'iPad7,11':
+    case 'iPad7,12':
+      return 'iPad 7';
     case 'iPad8,1':
     case 'iPad8,2':
     case 'iPad8,3':
     case 'iPad8,4':
-      return 'iPad Pro 11-inch';
+      return 'iPad Pro 11';
     case 'iPad8,5':
     case 'iPad8,6':
     case 'iPad8,7':
     case 'iPad8,8':
-      return 'iPad Pro 12.9-inch';
+      return 'iPad Pro 12.9 3';
+    case 'iPad11,1':
+    case 'iPad11,2':
+      return 'iPad mini 5';
+    case 'iPad11,3':
+    case 'iPad11,4':
+      return 'iPad Air 3';
+    case 'iPod1,1':
+      return 'iPod touch';
+    case 'iPod2,1':
+      return 'iPod touch 2';
+    case 'iPod3,1':
+      return 'iPod touch 3';
+    case 'iPod4,1':
+      return 'iPod touch 4';
+    case 'iPod5,1':
+      return 'iPod touch 5';
+    case 'iPod7,1':
+      return 'iPod touch 6';
+    case 'iPod9,1':
+      return 'iPod touch 7';
     default:
       return machine;
   }

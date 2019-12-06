@@ -1,5 +1,5 @@
 name: ios_machine_to_model_example
-description: A new Flutter project.
+description: An example project to demonstrate the usage of ios_machine_to_model package.
 version: 1.0.0+1
 
 environment:

@@ -1,6 +1,6 @@
 name: ios_machine_to_model
 description: A Flutter package to translate ios machine code to model. The machine code is retrieved using device_info plugin.
-version: 1.1.0
+version: 1.2.0
 author: Ji Tao <jitao@jitao.tech>
 homepage: https://github.com/flmn/ios_machine_to_model
 
